@@ -1,8 +1,5 @@
 Feature: Core Scenarios for TodoMVC Home page
 
-  Background: Navigate to the Website
-    Given I navigate to the Website
-
     Scenario: As a user, I should be able to create todos
         Given the user is on the TodoMVC app
         When the user enters "Buy groceries" in the input field and presses Enter
@@ -12,7 +9,7 @@ Feature: Core Scenarios for TodoMVC Home page
         Given the user is on the TodoMVC app
         When the user enters "Buy groceries" in the input field and presses Enter
         And the user clicks on the delete button for the todo item with the text "Buy groceries"
-        Then the todo item with the text "Buy groceries" should not appear in the list
+        Then the todo item list should disappear
 
     Scenario: As a user, I should be able to create multiple todos
         Given the user is on the TodoMVC app
@@ -65,8 +62,6 @@ Feature: Core Scenarios for TodoMVC Home page
         When the user enters "Buy groceries" in the input field and presses Enter
         And the user enters "Buy milk" in the input field and presses Enter
         And the user marks all todos as complete
-        And the user clicks on the "Mark all as incomplete" button
+        And the user marks all todos as incomplete
         Then the todo item with the text "Buy groceries" should be marked as incomplete
         And the todo item with the text "Buy milk" should be marked as incomplete
-
-    
