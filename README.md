@@ -43,9 +43,11 @@ yarn cypress run  # or npx cypress run
 
 🔥 Example Feature
 
+```
 Feature: Todo Management
 
   Scenario: Add a new todo item
     Given the user is on the TodoMVC app
     When the user enters "Buy groceries" in the input field and presses Enter
     Then a new todo item with the text "Buy groceries" should appear in the list
+```
