@@ -24,12 +24,12 @@ git clone https://github.com/IffatAhmedk/cypress-demo.git
 cd cypress-demo
 ```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 ```bash
 yarn install  # or npm install
 ```
 
-3️⃣ Run Tests Locally
+### 3️⃣ Run Tests Locally
 Open Cypress Test Runner
 ```bash
 yarn cypress open  # or npx cypress open
@@ -41,7 +41,7 @@ yarn cypress run  # or npx cypress run
 
 ```
 
-🔥 Example Feature
+### 🔥 Example Feature
 
 ```
 Feature: Todo Management
