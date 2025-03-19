@@ -4,7 +4,7 @@
 ![Cypress](https://img.shields.io/badge/Tested%20With-Cypress-4E4E4E?style=flat&logo=cypress&logoColor=white)
 ![Gherkin](https://img.shields.io/badge/BDD-Gherkin-8dc63f?style=flat&logo=gherkin&logoColor=white)
 
-Welcome to the **Cypress BDD Demo** repository! 🎯 This project showcases end-to-end testing using **Cypress** integrated with **Behavior-Driven Development (BDD)** practices through **Gherkin syntax**.
+Welcome to the **Cypress BDD Demo** repository! 🎯 This project showcases basic end-to-end testing of the TodoMVC App using **Cypress** integrated with **Behavior-Driven Development (BDD)** practices through **Gherkin syntax**.
 
 ## 📌 Features
 
