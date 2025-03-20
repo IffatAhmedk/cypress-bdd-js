@@ -1,4 +1,4 @@
-# 🚀 Cypress BDD Demo
+# 🚀 Cypress BDD JS Demo
 
 ![Test Status](https://github.com/IffatAhmedk/cypress-demo/actions/workflows/e2e.yml/badge.svg)
 ![Cypress](https://img.shields.io/badge/Tested%20With-Cypress-4E4E4E?style=flat&logo=cypress&logoColor=white)
