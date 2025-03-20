@@ -20,7 +20,7 @@ Welcome to the **Cypress BDD Demo** repository! 🎯 This project showcases basi
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/IffatAhmedk/cypress-demo.git
+git clone https://github.com/IffatAhmedk/cypress-bdd-js.git
 cd cypress-demo
 ```
 
